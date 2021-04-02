@@ -20,13 +20,14 @@
 			</div>
 			<div id="menu" >
 			<ul>
-				<li><a href="#" >CPU</a></li>
-				<li><a href="#" >Motherboard</a></li>
-				<li><a href="#">RAM</a></li>
-				<li><a href="GPU.html" >Graphics Card</a></li>
-				<li><a href="#" >Storage</a></li>
-				<li><a href="#" >Power Supply</a></li>
-				<li><a href="#" >Case</a></li>
+				<li><a href="cpu.html" accesskey="2" title="">CPU</a></li>
+				<li><a href="MB.html" accesskey="3" title="">Motherboard</a></li>
+				<li><a href="ram.html" accesskey="4" title="">RAM</a></li>
+				<li><a href="GPU.html" accesskey="5" title="">Graphics Card</a></li>
+				<li><a href="#" accesskey="6" title="">Storage</a></li>
+				<li><a href="#" accesskey="7" title="">Power Supply</a></li>
+				<li><a href="case.html" accesskey="8" title="">Case</a></li>
+
 
 				</ul>
 		</div>
@@ -34,27 +35,61 @@
 </div>
 
 <div id="extra" class="container">
-		<h2> CPU </h2>
-		<span> Alternately referred to as a processor, central processor, or microprocessor, the CPU (pronounced sea-pea-you) is the central processing unit of the computer. A computer's CPU handles all instructions it receives from hardware and software running on the computer.</span>
+
+
+		<h2> CPU and Motherboards: Picking the Right Combination </h2>
+
+		<span> When it comes to desktop CPUs, there are two brands that you can choose from – AMD and Intel. This choice dictates what motherboard you can and cannot pick.</span>
 
 </div>
 
 <div id="extra" class="container">
-		<h2> CPU overview</h2>
-		<span>The picture below is an example of what the bottom and top of an AMD RYZEN processor may look. The processor is placed and secured into a compatible CPU socket found on the motherboard. Processors produce heat, so they are covered with a heat sink to keep them cool and running smoothly. To help transfer the heat between the CPU and the heat sink</span>
+		<h2> Sockets and Chipsets</h2>
+		<span>You’ll need an Intel-compatible motherboard for an Intel CPU and an AMD-compatible motherboard for an AMD CPU.</span>
 
 
 <img src="images/processor.jpg" alt="">
 
-	<span>As seen in the picture above, the CPU chip is usually square with one notched corner to help make sure it's properly inserted into the CPU socket. On the bottom of the chip are hundreds of connector pins that correspond to the socket holes. Today, most CPU's resemble the picture shown above. However, Intel and AMD have also experimented with slot processors. They were much larger and slid into a slot on the motherboard. Also, over the years, there were several types of sockets on motherboards. Each socket only supports specific types of processors and each has its own pin layout.</span>
 </div>
 
+Both brands use different socket types, and that is why you can’t swap CPUs from different brands. Sockets can even vary across processor generations from the same company.
+
+For mainstream Intel CPUs, you’ll need a motherboard with an LGA 1151 socket. These motherboards will support both 8th and 9th generation CPUs from Intel.
+
+For mainstream AMD CPUs, you need a motherboard with the AM4 socket. These motherboards will support all AMD Ryzen CPUs and APUs.
+
+However, the socket alone doesn’t determine compatibility, which is why I recommend shopping by chipset instead. A chipset controls the flow of instructions between any processor and external devices.
+
+Here’s a table with recommended chipsets for the most popular processors out there. If you don’t find your processor in this list, do go ahead and leave a comment below. I’ll do my best to help out!
+
+
+
+
+<div id="tablepress-39_wrapper" class="dataTables_wrapper no-footer"><table id="tablepress-39" class="tablepress tablepress-id-39 tablepress-responsive dataTable no-footer" role="grid">
+<tr class="row-1 odd" role="row"><th class="column-1 sorting_disabled" rowspan="1" colspan="1" style="width: 234px;"><strong>CPU</strong></th><th class="column-2 sorting_disabled" rowspan="1" colspan="1" style="width: 94px;"><strong>Recommended Chipset</strong></th><th class="column-3 sorting_disabled" rowspan="1" colspan="1" style="width: 354px;"><strong>Reason</strong></th></tr><thead>
+
+</thead>
+<tbody class="row-hover">
 
 
 
 
 
 
+<tr class="row-2 even" role="row">
+	<td class="column-1"><strong>8<sup>th</sup> and 9<sup>th</sup> Generation Intel Core i9, i7, and i5 Processors (K series)</strong></td><td class="column-2">Z390/Z370</td><td class="column-3">‘K’ CPUs from Intel have unlocked cores and can be overclocked. Only the Z390 and Z370 chipsets support this capability.</td>
+</tr><tr class="row-3 odd" role="row">
+	<td class="column-1"><strong>8<sup>th</sup> And 9<sup>th</sup> Generation Intel Core i9, i7, i5, and i3 Processors (non-K Series)</strong></td><td class="column-2">H370/B360/H310</td><td class="column-3">Since non - ‘K’ CPUs from Intel aren’t overclockable, you can safely go with cheaper chipset options that don’t support this capability.</td>
+</tr><tr class="row-4 even" role="row">
+	<td class="column-1"><strong>AMD Ryzen Processors (1<sup>st</sup>, 2<sup>nd</sup>, and 3<sup>rd</sup> Generation) and AMD Ryzen-Based APUs (2400G, 3400G, etc.)</strong></td><td class="column-2">X570/B450/A320</td><td class="column-3">All motherboards with these chipsets come with an AM4 socket. Pick according to your budget and requirements. Follow this <a href="https://www.cgdirector.com/best-motherboard-for-amd-ryzen-3rd-gen/">Ryzen motherboard guide</a> for additional information.</td>
+</tr><tr class="row-5 odd" role="row">
+	<td class="column-1"><strong>AMD Ryzen Threadripper Processors (1<sup>st </sup>and 2<sup>nd </sup>Gen)</strong></td><td class="column-2">X399</td><td class="column-3">Only available Chipset for 1st and 2nd Gen Threadripper CPUs</td>
+</tr><tr class="row-6 even" role="row">
+	<td class="column-1"><strong>AMD Ryzen Threadripper Processors (3<sup>rd </sup>Gen)</strong></td><td class="column-2">TRX40</td><td class="column-3">Only available Chipset for 3rd Gen Threadripper CPUs</td>
+</tr><tr class="row-7 odd" role="row">
+	<td class="column-1"><strong>Intel HEDT X-Series CPUs 9th and 10th Gen</strong></td><td class="column-2">X299</td><td class="column-3">Only available Chipset for 9th and 10th gen Intel X-Series CPUs</td>
+</tr></tbody>
+</table></div>
 
 
 
