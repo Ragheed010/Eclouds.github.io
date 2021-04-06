@@ -469,6 +469,23 @@ ul.contact li a.icon-rss:before
 /* Banner                                                                        */
 /*********************************************************************************/
 
+
+#banner-wrapper
+{
+	overflow: hidden;
+	padding: 3em 0em;
+	background: #FFF;
+}
+
+#banner
+{
+	overflow: hidden;
+	width: 1000px;
+	padding: 0px 100px;
+	text-align: center;
+	color: rgba(255,255,255,.7);
+}
+
 #banner a
 {
 	color: rgba(255,255,255,.9);
@@ -483,6 +500,7 @@ ul.contact li a.icon-rss:before
 {
 	float: right;
 }
+
 
 #banner h2
 {
