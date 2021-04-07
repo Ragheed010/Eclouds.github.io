@@ -114,7 +114,13 @@ a:hover
 		background-image: url(images/GPU.jpeg);
 		background-size: auto auto;
 	}
-
+.gpuvid
+	{
+			height: 30em;
+	  background-repeat: no-repeat;
+		background-position: url(videos/GPU\ Installation.mp4), url(videos/Close\ up\ the\ case.mp4);
+		background-size: auto auto;
+	}
 
 /*********************************************************************************/
 /* List Styles                                                                   */
