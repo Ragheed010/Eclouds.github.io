@@ -10,7 +10,7 @@ body
 	padding: 0px;
 	background: #1B9772;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 12pt;
+	font-size: 11pt;
 	font-weight: 300;
 	color: #6c6c6c
 }
@@ -373,6 +373,15 @@ ul.contact li a.icon-rss:before
 	.title
 {
 	margin-bottom: 3em;
+}
+
+.Rtitle h2
+{
+	font-weight: 400;
+	font-size: 2.8em;
+	background: #6c6c6c;
+	color: #ffffff;
+
 }
 
 .title h2
