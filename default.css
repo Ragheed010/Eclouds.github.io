@@ -10,7 +10,7 @@ body
 	padding: 0px;
 	background: #1B9772;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 11pt;
+	font-size: 12pt;
 	font-weight: 300;
 	color: #6c6c6c
 }
@@ -107,7 +107,7 @@ a:hover
 	width: auto;
 }
 
-	#GPUP
+.GPUP
 	{
 			height: 30em;
 	  background-repeat: no-repeat;
