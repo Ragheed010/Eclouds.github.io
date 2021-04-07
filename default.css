@@ -109,8 +109,9 @@ a:hover
 
 .GPUP
 	{
-			height: 30em;
-	  background-repeat: no-repeat;
+		height: 30em;
+		background-repeat: no-repeat;
+		background-image: url(images/GPU.jpeg);
 		background-size: auto auto;
 	}
 
