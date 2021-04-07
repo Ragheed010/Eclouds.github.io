@@ -377,10 +377,9 @@ ul.contact li a.icon-rss:before
 
 .Rtitle h2
 {
-	font-weight: 400;
+	  font-weight: bold;
 	font-size: 2.8em;
-	background: #6c6c6c;
-	color: #ffffff;
+  text-shadow: 4px 4px 3px #77f;
 
 }
 
