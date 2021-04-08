@@ -527,7 +527,7 @@ ul.contact li a.icon-rss:before
   width: 100%;
 }
 
-#ratable td, #guptbl th {
+#ratable td, #ratable th {
   border: 1px solid #ddd;
   padding: 8px;
 }
