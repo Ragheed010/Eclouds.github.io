@@ -523,38 +523,27 @@ ul.contact li a.icon-rss:before
 /* Table                                                                          */
 /*********************************************************************************/
 
-.table {
-border-collapse: collapse;
-border-spacing: 0;
+#guptbl {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-.fa-chevron-up:before {
-content: "\f077"
+#guptbl td, #guptbl th {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
 
-.fa-clock:before {
-content: "\f017"
-}
+#guptbl tr:nth-child(even){background-color: #f2f2f2;}
 
-.fa-comments:before {
-content: "\f086"
-}
-.fa-search:before {
-content: "\f002"
-}
+#guptbl tr:hover {background-color: #ddd;}
 
-.far {
-font-weight: 400
-}
-
-.fa,.far,.fas {
-font-family: 'font awesome\ 5 brands'!important;
-font-style: italic;
-font-weight: 700
-}
-
-.fa,.fas {
-font-weight: 900
+#guptbl th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
 }
 
 /*********************************************************************************/
