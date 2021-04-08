@@ -527,16 +527,16 @@ ul.contact li a.icon-rss:before
   width: 100%;
 }
 
-#guptbl td, #guptbl th {
+#ratable td, #guptbl th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-#guptbl tr:nth-child(even){background-color: #f2f2f2;}
+#ratable tr:nth-child(even){background-color: #f2f2f2;}
 
-#guptbl tr:hover {background-color: #ddd;}
+#ratable tr:hover {background-color: #ddd;}
 
-#guptbl th {
+#ratable th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
