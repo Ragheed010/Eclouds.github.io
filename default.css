@@ -133,7 +133,7 @@ a:hover
   box-sizing: border-box;
 }
 
-video {
+.video {
   width: 100%;
   height: auto;
 }
