@@ -123,6 +123,22 @@ strong
 		background-size: auto auto;
 	}
 
+.storageD
+	{
+		height: 30em;
+		background-repeat: no-repeat;
+		background-image: url(images/storageData.jpeg);
+		background-size: auto auto;
+	}
+
+.storage
+	{
+		height: 30em;
+		background-repeat: no-repeat;
+		background-image: url(images/storage.jpeg);
+		background-size: auto auto;
+	}
+
 .gpuvid
 	{
 			height: 30em;
