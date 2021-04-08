@@ -140,9 +140,9 @@ strong
 	}
 
 
-.PSUCPU
+.cPower
 	{
-		height: 30em;
+		height: 10em;
 		background-repeat: no-repeat;
 		background-image: url(cpuPower.jpeg);
 		background-size: auto auto;
@@ -150,7 +150,7 @@ strong
 
 .storageD
 	{
-		height: 30em;
+		height: 10em;
 		background-repeat: no-repeat;
 		background-image: url(images/storageData.jpeg);
 		background-size: auto auto;
