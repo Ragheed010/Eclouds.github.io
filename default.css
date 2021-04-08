@@ -129,16 +129,10 @@ a:hover
 		background-size: auto auto;
 	}
 
-* {
-  box-sizing: border-box;
-}
-
 .video {
   width: 100%;
   height: auto;
 }
-
-
 
 /*********************************************************************************/
 /* List Styles                                                                   */
