@@ -56,9 +56,15 @@ a
 	color: #2C383B;
 }
 
-a:hover
-{
-	text-decoration: none;
+a {
+  background-color: #f33;
+  transition: background-color .5s;
+	
+}
+
+a:hover {
+  background-color: #77f;
+	 font-weight: bold;
 }
 
 .container
