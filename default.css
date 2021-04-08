@@ -57,13 +57,13 @@ a
 }
 
 a {
-  background-color: #f33;
-  transition: background-color .5s;
+  background-color: #77f;
+  transition: background-color .8s;
 	
 }
 
 a:hover {
-  background-color: #77f;
+  background-color: #f33;
 	 font-weight: bold;
 }
 
