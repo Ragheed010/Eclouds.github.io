@@ -51,13 +51,13 @@ strong
 {
 }
 
-a {
+r {
   background-color: #77f;
   transition: background-color .8s;
 	
 }
 
-a:hover {
+r:hover {
   background-color: #f33;
 }
 
