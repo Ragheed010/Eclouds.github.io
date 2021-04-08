@@ -11,7 +11,7 @@ body
 	background: #1B9772;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 11pt;
-	font-weight: 300;
+	font-weight: 500;
 	color: #6c6c6c
 }
 
@@ -39,12 +39,12 @@ ol, ul
 	padding: 0px 30px 20px;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 16pt;
-line-height: 24px;
+line-height: 32px;
 }
 
 p
 {
-	line-height: 180%;
+	line-height: 200%;
 }
 
 strong
@@ -120,6 +120,32 @@ strong
 		height: 30em;
 		background-repeat: no-repeat;
 		background-image: url(images/PSU.jpeg);
+		background-size: auto auto;
+	}
+
+.PSUCP
+	{
+		height: 30em;
+		background-repeat: no-repeat;
+		background-image: url(images/PSU-Cable-Management.jpeg);
+		background-size: auto auto;
+	}
+
+
+.PSUCM
+	{
+		height: 30em;
+		background-repeat: no-repeat;
+		background-image: url(cable-Management-Backside.jpeg);
+		background-size: auto auto;
+	}
+
+
+.PSUCPU
+	{
+		height: 30em;
+		background-repeat: no-repeat;
+		background-image: url(cpuPower-.jpeg);
 		background-size: auto auto;
 	}
 
