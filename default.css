@@ -34,7 +34,7 @@ ol, ul
 	list-style: none;
 }
 
-.GPUpa p
+.rafont p
 {
 	padding: 0px 30px 20px;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -112,6 +112,14 @@ strong
 		height: 30em;
 		background-repeat: no-repeat;
 		background-image: url(images/GPU.jpeg);
+		background-size: auto auto;
+	}
+
+.PSUP
+	{
+		height: 30em;
+		background-repeat: no-repeat;
+		background-image: url(images/PSU.jpeg);
 		background-size: auto auto;
 	}
 
@@ -513,7 +521,7 @@ ul.contact li a.icon-rss:before
 /* Table                                                                          */
 /*********************************************************************************/
 
-#guptbl {
+#ratable {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
