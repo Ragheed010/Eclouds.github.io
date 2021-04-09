@@ -134,8 +134,6 @@ strong
 
 .PSUCM
 	{
-		float: left;
-	margin: 0 2em 2em 0;
 		height: 30em;
 		background-repeat: no-repeat;
 		background-image: url(images/cable-Management-Backside.jpeg);
@@ -145,8 +143,6 @@ strong
 
 .cPower
 	{
-		float: left;
-	margin: 0 2em 2em 0;
 		height: 30em;
 		background-repeat: no-repeat;
 		background-image: url(images/cpuPower.jpeg);
@@ -970,7 +966,7 @@ ul.contact li a.icon-rss:before
 #footer-wrapper
 {
 	overflow: hidden;
-	padding: 0em 0em;
+	padding: 1em 0em;
 	background: #383838;
 	text-align: center;
 }
