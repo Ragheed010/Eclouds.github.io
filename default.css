@@ -125,6 +125,7 @@ strong
 
 .PSUCP
 	{
+		height: 30em;
 		background-repeat: no-repeat;
 		background-image: url(images/PSU-Cable-Management.jpeg);
 		background-size: auto auto;
@@ -133,8 +134,7 @@ strong
 
 .PSUCM
 	{
-		float: left;
-	margin: 0 2em 2em 0;
+		height: 30em;
 		background-repeat: no-repeat;
 		background-image: url(images/cable-Management-Backside.jpeg);
 		background-size: auto auto;
@@ -143,8 +143,7 @@ strong
 
 .cPower
 	{
-		float: left;
-	margin: 0 2em 2em 0;
+		height: 30em;
 		background-repeat: no-repeat;
 		background-image: url(images/cpuPower.jpeg);
 		background-size: auto auto;
