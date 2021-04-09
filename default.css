@@ -136,16 +136,16 @@ strong
 	{
 		height: 30em;
 		background-repeat: no-repeat;
-		background-image: url(cable-Management-Backside.jpeg);
+		background-image: url(images/cable-Management-Backside.jpeg);
 		background-size: auto auto;
 	}
 
 
-.PSUCPU
+.cPower
 	{
 		height: 30em;
 		background-repeat: no-repeat;
-		background-image: url(cpuPower.jpeg);
+		background-image: url(images/cpuPower.jpeg);
 		background-size: auto auto;
 	}
 
@@ -741,7 +741,7 @@ ul.contact li a.icon-rss:before
 #featured-wrapper
 {
 	overflow: hidden;
-	padding: 6em 0em;
+	padding: 1em 0em;
 	background: #383838;
 	text-align: center;
 }
