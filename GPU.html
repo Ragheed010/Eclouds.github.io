@@ -13,13 +13,13 @@ function myFunction() {
 
 body {
   font-family: Arial;
-  padding: 10px;
+  padding: 14px;
   background: #f1f1f1;
 }
 
 /* Header/Blog Title */
 .header {
-  padding: 30px;
+  padding: 50px;
   text-align: center;
 
  /* background: white;*/
@@ -44,7 +44,7 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 18px 24px;
   text-decoration: none;
 }
 
@@ -66,7 +66,7 @@ body {
   float: left;
   width: 25%;
   background-color: #f1f1f1;
-  padding-left: 20px;
+  padding-left: 15px;
 }
 
 /* Fake image */
@@ -92,10 +92,16 @@ body {
 
 /* Footer */
 .footer {
-  padding: 20px;
+    padding: 10px;
   text-align: center;
-  background: #ddd;
-  margin-top: 20px;
+  background: #f1f1f1;
+  margin-top: 10px;
+  
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.80em;
+  color: rgba(255,255,255,0.8);
+
 }
 .logo a{
     text-decoration: none;
@@ -103,9 +109,17 @@ body {
 
 }
 
+.logo1 {
+    padding: 5px;
+
+  color: #ffffff;
+    font-size: 1.5em;
+
+
+}
 .logo{
 display:inline-block;
-  font-size: 2.5em;
+  font-size: 4.5em;
   text-transform: uppercase;
   font-weight: 700;
   color: #ffffff;
@@ -134,13 +148,13 @@ display:inline-block;
 
 <div class="header" style="background-image: url('banner.jpg');">
   <h1 class = "logo"><a href="index.html"> EClouds</a> </h1>
-  <p>Best place to visit before choosing PC parts for your new PC</p>
+  <p class = "logo1">Best place to visit before choosing PC parts for your new PC</p>
 </div>
 
 <div class="topnav">
   <a href="">CPU</a>
   <a href="#">Graphics Card</a>
-  <a href="https://eclouds.ml/MB.html">CPU</a>
+  <a href="#">CPU</a>
   <a href="">Motherboard</a>
     <a href="#">RAM</a>
   <a href="#">Storage</a>
@@ -193,9 +207,24 @@ display:inline-block;
     </div>
   </div>
   <div class="rightcolumn">
+        <div class="card">
+      <h2>Our Objictive:</h2>
+          <p>We in EClouds hope to make it eaier to udertsand what you need to know before choosing between many smailar PC components   </p>
+    </div>
+
+        <div class="card">
+      <h2>Our strategy:</h2>
+          <p>We choose to divide every Pc to one of three category:  </p>
+          <ul> <li>Low Budget PC</li>
+               <li>Budget PC</li>
+               <li>Hight-end PC</li>
+
+        </ul>
+    </div>
+
     <div class="card">
       <h2>About Us</h2>
-          <p>This our Assighment 3 for CS378 course: </p>
+          <p>This our final project for CS379 course: </p>
         <ul> <li>Abdulrahman Althomali:   3910628</li>
     <li>Ragheed Al-jehani:   3710883</li>
         </ul>
@@ -209,7 +238,7 @@ display:inline-block;
   </div>
 </div>
 
-<div class="footer">
+<div class="footer" style="background-image: url('fotter.jpg');">
   <h2>Abdulrahman Althomali | Ragheed Al-jehani</h2>
 </div>
 
