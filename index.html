@@ -1,287 +1,318 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>eClouds</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+  <script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+<style>
+* {
+  box-sizing: border-box;
+}
 
-<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+body {
+  font-family: Arial;
+  padding: 14px;
+  background: #f1f1f1;
+}
 
+/* Header/Blog Title */
+.header {
+  padding: 50px;
+  text-align: center;
+
+ /* background: white;*/
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.header p {
+   color: #ffffff;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+    font-size: 1.4em;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 24px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 15px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 10px;
+  text-align: center;
+  background: #f1f1f1;
+  margin-top: 10px;
+  
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.80em;
+  color: rgba(255,255,255,0.8);
+
+}
+.logo a{
+    text-decoration: none;
+  color: #ffffff;
+
+}
+
+.logo1 {
+    padding: 5px;
+
+  color: #ffffff;
+    font-size: 1.5em;
+
+
+}
+.logo{
+display:inline-block;
+  font-size: 4.5em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+
+
+
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
 </head>
-<body>
+<body >
+
+<div class="header" style="background-image: url('banner.jpg');">
+>
+  <h1 class = "logo"><a href="index.html"> EClouds</a> </h1>
+  <p  class = "logo1">Best place to visit before choosing PC parts for your new gaming PC</p>
+</div>
+
+<div class="topnav">
+    <a href="cpu.html">CPU</a>
+    <a href="GPU.html">Graphics Card</a>
+    <a href="MB.html">Motherboard</a>
+    <a href="RAM.html">RAM</a>
+    <a href="Storage.html">Storage</a>
+    <a href="PSU.html">Power Supply</a>
+    <a href="case.html">Case</a>
+  <a href="https://pcpartpicker.com/" style="float:right">Outside soruce</a>
+</div>
+
+<div class="row" >
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>You need a budget before buying new pc!!</h2>
+      <h5>First step before choosing pc hardware, April 12, 2021</h5>
+      <p>A reliable home PC doesn't have to cost you four figures...far from it. Most of our budget-PC favorites cost less than $600, and some are hundreds less than that. Check out our top tested picks among conventional towers, compact PCs, and more.</p>
+      <p>You can see our recomndation next:</p>
+    </div>
+    <div class="card">
+      <h2>You can choose between 3 tipes of PC budgets:</h2>
+      
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = " In this category, we dicided the price range of the buget is less than 400$ "'>Low Budget PC</button>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "In this category, we dicided the price range of the buget is between 400$ and 700$  "'>Budget PC</button>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "In this category, we dicided the price range of the buget is above 1000$"'> High-end PC</button>
+
+<p id="demo"> Here some explation for every type</p>
 
 
+    </div>
 
-<div id="header-wrapper">
-	<div id="header" class="container">
-		<div id="logo">
-			<h1><a href="https://eclouds.ml">eClouds</a></h1>
-			</div>
+    <div class="card">
+      <h2>Here is our recomndation!!</h2>
 
-                            <div id="menu">
-                                <ul>
-                                    <li><a href="cpu.html">CPU</a></li>
-                                    <li><a href="MB.html">Motherboard</a></li>
-                                    <li><a href="RAM.html">RAM</a></li>
-                                    <li><a href="GPU.html">Graphics Card</a></li>
-                                    <li><a href="Storage.html">Storage</a></li>
-                                    <li><a href="cs379.html">Power Supply</a></li>
-                                    <li><a href="case.html">Case</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+<table border="1" style="width:90%">
+  
+  <tr>
 
-<div id="header-featured"> </div>
-<div id="banner-wrapper">
-	<div id="banner" class="container">
-</div></div>
-	
-<div id="wrapper">
-	<div id="featured-wrapper">
-		<div id="featured" class="container">
-			
-		</div>
-	</div>
-	<div id="extra" class="container">
-		<h2>How to Pick Components for Your PC (Workstations/Gaming PCs/Office PCs) </h2>
+  <th>Low Budget PC</th>
+  <th><p>Budget PC</p> </th>
 
-<span>The components you choose should cater to your specific requirements. In fact, this is the beauty of custom PC builds – you can modify the configuration, size, budget, and performance to fit your specific use case without compromising on any aspect.</span>
-<span>
-Depending on the parts you pick, your budget can range from a few hundred dollars to a few thousand. However, you should ensure that you balance your budget allocation across various components.</span>
+  <th><p>High-end PC</p></th>
 
-<img src="pcPart.jpg" alt="">
+</tr>
+<tr>
 
-<span>Moreover, you should also <b>get the hardware and performance that you’ll put to use.</b></span>
-<span>
-Another critical aspect to consider is compatibility. Pick your parts carefully because every component won’t be compatible with the other. I’ll go over compatibility as well when addressing each component to simplify your purchase decisions.</span>
-<span>
-Every PC can be broken down into<b> seven discrete components or parts:</b></span>
+  
+<th>
+    <ul>
+ <li>CPU:   Intel Core i3-10100 </li>
+ <li>MOBO:  ASRock H410M  </li>
+ <li>GPU:   XFX RX 550 4GB  </li>
+ <li>RAM:   Patriot Signature 8GB</li> 
+ <li>SSD:   PNY 240GB </li>
+ <li>CASE:  Rosewill FBM-X2</li> 
+ <li>Power supply: Gigabyte 650W</li> 
 
-		<ul>
-<li>CPU/Processor</li>
-<li>Motherboard/Mainboard</li>
-<li>Memory/RAM</li>
-<li>Graphics Card/Video Card</li>
-<li>Storage (HDD, SSD)</li>
-<li>Power Supply Unit/PSU</li>
-<li>Case/Cabinet</li>
 </ul>
-		<span>In addition to these parts, you’ll need peripheral accessories like a mouse, keyboard, and a monitor as well.</span>
+</th>
+  <th>
+    <ul>
+ <li>CPU:   Intel Core i5-10400 </li>
+ <li>MOBO:  ASRock H410M  </li>
+ <li>GPU:   PowerColor RX 5600 XT  </li>
+ <li>RAM:   OLOy 16GB</li> 
+ <li>SSD:   ADATA 480GB </li>
+ <li>CASE:  AeroCool Cylon</li> 
+ <li>Power supply: Cooler Master 650W</li> 
 
-		</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-	<div id="footer-wrapper">
-		<div id="footer" class="container">
-			<div >
-				<div class="title">
-
-<h2>Building Your own PC </h2>
-		<span> These are the Parts we will be assembling in this guide. Don’t worry if you don’t have the exact same components as most are assembled in a very similar way:</span>
-		<p>These are the Parts we will be assembling in this guide. Don&#8217;t worry if you don&#8217;t have the exact same components as most are assembled in a very similar way:</p>
-<ul>
-<li><strong>CPU</strong>: AMD Ryzen 5 3600</li>
-<li><strong>CPU-Cooler</strong>: Both Stock and a 3rd-Party Cooler (Cooler Master Hyper 212 EVO)</li>
-<li><strong>Motherboard</strong>: MSI B450 Tomahawk MAX</li>
-<li><strong>RAM</strong>: 16GB (2x8GB) Corsair Vengeance 3600Mhz CL16</li>
-<li><strong>GPU</strong>: XFX Radeon RX570</li>
-<li><strong>Storage</strong>: Samsung 860 EVO and Samsung 970 EVO</li>
-<li><strong>PSU</strong>: Corsair CX550M</li>
-<li><strong>Case</strong>: beQuiet Pure Pure Base 500</li>
 </ul>
-<h2>Tools Needed</h2>
-<ul>
-<li><strong>Philips Head Screwdriver (ideally magnetic)
-</strong></li>
-<li><strong>Non-Carpeted Surface</strong></li>
-<li><strong>Zip ties (Nice-to-have / 10-15)</strong></li>
+   </th>
+
+  <th>
+    <ul>
+ <li>CPU:   Intel Core i7-10700K </li>
+ <li>MOBO:  Deep Cool 240mm  </li>
+ <li>GPU:   MSI Z490  </li>
+ <li>RAM:   ZOTAC RTX 2070 SUPER</li> 
+ <li>SSD:   OLOy 16GB </li>
+ <li>CASE:  Corsair iCUE 220T</li> 
+ <li>Power supply: Corsair CX750M</li> 
+
 </ul>
+  </th>
 
-<p>Now, you can use an anti-static strap if you’re concerned about static electricity ruining your components. However, you can avoid this by building on a bare, grounded surface and touching the bare metal of your PC-Cabinet before handling a sensitive part like a graphics card.</p>
-		</div>
+</tr>
+
+<tr>
+  <th>
+    
+   Grand Total: $370 
+  </th>
+    <th>
+    
+  Grand Total: $670 
+  </th>
+    <th>
+    
+   Grand Total: $1500
+  </th>
+
+</tr>
+<tr>
+  
+<th>
+
+<a href="https://www.amazon.com/gp/aws/cart/add.html?AssociateTag=thowisguy-20&ASIN.1=B086MMRW87&Quantity.1=1&ASIN.2=B0895L5MGN&Quantity.2=1&ASIN.3=B08C7BV6VK&Quantity.3=1&ASIN.4=B07CVDYH5Q&Quantity.4=1&ASIN.5=B0719D9YL7&Quantity.5=1&ASIN.6=B07MDJ2RW8&Quantity.6=1&ASIN.7=B079SSKYWB&Quantity.7=1">Amazon Shopping Cart</a></th>
+  <th><a href="https://www.amazon.com/gp/aws/cart/add.html?AssociateTag=thowisguy-20&ASIN.1=B086MN38Q2&Quantity.1=1&ASIN.2=B0895L5MGN&Quantity.2=1&ASIN.3=B089CSRBPD&Quantity.3=1&ASIN.4=B083NPX9TJ&Quantity.4=1&ASIN.5=B07PGC3JKQ&Quantity.5=1&ASIN.6=B079P1VBDY&Quantity.6=1&ASIN.7=B074ZKXM72&Quantity.7=1">Amazon Shopping Cart</a></th>
+
+  <th><a href="https://www.amazon.com/gp/aws/cart/add.html?AssociateTag=thowisguy-20&ASIN.1=B086MMS6FV&Quantity.1=1&ASIN.2=B0829RTMKY&Quantity.2=1&ASIN.3=B0876J8436&Quantity.3=1&ASIN.4=B07XSPWMP9&Quantity.4=1&ASIN.5=B083NPX9TJ&Quantity.5=1&ASIN.6=B077SF8KMG&Quantity.6=1&ASIN.8=B07DRVHBWK&Quantity.8=1&ASIN.9=B074ZKXM72&Quantity.9=1">Amazon Shopping Cart</a></th>
+
+</tr>
+</table>
+
+    </div>
+
+
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+       <h2>Our objective:</h2>
+          <p>We in EClouds hope to make it eaier to udertsand what you need to know before buying or building gaming PC.</p>
+    </div>
+
+        <div class="card">
+      <h2>Our strategy:</h2>
+          <p>We choose to divide every Pc to one of three category:  </p>
+          <ul> <li>Low Budget PC</li>
+               <li>Budget PC</li>
+               <li>High-end PC</li>
+
+        </ul>
+    </div>
+
+    <div class="card">
+      <h2>About Us</h2>
+          <p>This our final project for CS379 course: </p>
+        <ul> <li>Abdulrahman Althomali:   3910628</li>
+    <li>Ragheed Al-jehani:   3710883</li>
+        </ul>
+   
+    </div>
+   
+    <div class="card">
+      <h3>Follow us</h3>
+      <p>Twitter:<a href="https://twitter.com/YUC_HOTLINE">@YUC_HOTLINE</a> </p>
+    </div>
+  </div>
 </div>
 
-
-	<div >
-				<div class="title">
-
-					<h2>1. Motherboard</h2>
-				</div>
-				<p>Take the motherboard out of the box and protective wrapping (touch the metal of your cabinet first). If you don’t have an anti-static surface to work on, use the motherboard box. Place the board on top of the box before continuing.</p>
-			</div>
-		
-
-		<div >
-				<div class="title">
-					<h2>2. CPU Installation</h2>
-				</div>
-				<p>If you have an Intel CPU, then gently push down on the retention arm, slide it out and lift it – exposing the socket. Gently place the CPU in the socket.
-
-Match the golden triangle on the bottom left of the CPU with the triangle on the socket. The CPU can only slot into its socket in this orientation. You won’t need to use any force.
-
-If you have both triangles lined up, the CPU will fall into place without any effort.
-
-Now, slide the bracket back. If it is secured, then the plastic cover should pop off automatically. It might fly off, so don’t worry. That’s normal.
-
-On the AMD side of things, the installation process is simple and pretty much the same. Lift the retention arm, match the triangles on the processor and the socket. Once the CPU is in place, lower the retention arm back and secure it into place.</p>
-			</div>
-		
-
-		<div >
-				<div class="title">
-					<h2>3. Memory</h2>
-				</div>
-				<p>Next, let’s get our RAM installed. You’ll see latches on either side of the RAM slots (or just a single latch in a few budget motherboards).
-
-Push down on the latches to open them. The contact pins on your RAM will have a longer and shorter side. It goes in only one way, so align them correctly.
-
-Use the notches at each end to guide the stick down and push down on both ends together. This does take a bit of force, and you will hear two clicks – indicating that the RAM is now secure in its slot. If you don’t hear clicks, re-check if your RAM is correctly aligned with its slot.
-
-If you’re using two memory sticks, install them in slots 1 and 3 or 2 and 4 – a standard configuration in most motherboards for dual-channel memory. Consult the Motherboard Manual to be entirely sure though.</p>
-			</div>
-		</div>
+<div class="footer" style="background-image: url('fotter.jpg');">
+  <div id="copyright">
+            <p>
+                &copy; UNTITLED. ALL RIGHTS RESERVED. | DESIGN BY <a href="mailto:3910628@stu.rcyci.edu.sa">ABDULRAHMAN ALTHOMALI</a> & <a href="mailto:3720883@stu.rcyci.edu.sa">RAGHEED
+                    ALJEHANI</a> 
+            </p>
+        </div></div>
 
 
-		<div >
-				<div class="title">
-					<h2>4. CPU Cooler</h2>
-				</div>
-				<p>Now that the CPU and RAM are in place, you can install the CPU cooler. In some cases, you do not have enough room to install the RAM if you install the CPU cooler first. That is why I recommend installing the RAM first.
-
-Thermal Paste usually comes pre-applied on a boxed CPU cooler. However, a few botched attempts at installing the cooler might necessitate re-application, so, keep some thermal paste on stand-by.
-
-CPU-cooler installation processes vary from cooler to cooler. Even Intel and AMD stock coolers have different installation methods.
-
-Nonetheless, if you’re using a stock cooler, the installation should be easy.
-
-An Intel stock cooler usually doesn’t need any screws. Just place the cooler over the CPU, align the four pins with the four cooler installation holes in the motherboard. Push down on the pins diagonally and twist to lock into place. (always consult the CPU-Cooler manual too)
-
-On the other hand, the AMD stock cooler needs to be screwed in with a common Philips Head Screwdriver. In this case, you’ll notice a backplate on the back of your motherboard. Make sure that it stays aligned with the holes in your motherboard. Now install the CPU cooler by placing it over the CPU and screwing it in diagonally.
-
-If the backplate is aligned correctly, this should lock it into place.
-
-Third-party coolers too come with their own instruction manual. They’ll also come equipped with brackets for all kinds of CPU sockets. So, it doesn’t matter whether you have an Intel or AMD CPU. Nonetheless, double-check for socket support when buying a CPU cooler.
-
-AMD/AM4, The following Video shows the installation of an AMD Stock Cooler (In this case the AMD Wraith CPU-Cooler), which already has Thermal Paste applied to the bottom of the Cooler:
-
-</p>
-			</div>
-		
-				<div >
-				<div class="title">
-					<h2>5. Motherboard installation
-</h2>
-				</div>
-				<p>Now that you have the CPU, RAM, and CPU cooler installed on the motherboard, you can fit the motherboard into your case. Strip your case by removing both side panels. You can remove the pre-installed fans if you want to use custom Case-Fans.
-
-
-
-Check that the case has pre-installed motherboard standoffs and that they align with the holes on the motherboard.
-
-Find the motherboard I/O shield and push it into the rectangular slot at the back of the PC case. Make sure that it is the right side up and matches the ports on your motherboard. You might have to use a bit of force to pop it into place.
-
-Careful though; they are sharp little buggers. They will draw blood.</p>
-			
-
-</div>
-		
-				<div >
-				<div class="title">
-					<h2>6. Storage</h2>
-				</div>
-				<p>Now that your motherboard is safely ensconced inside the case, we can add storage.
-
-Most modern cabinets have storage bays for both SSDs and HDDs. All you need to do is slide the drive into place and screw it in.</p>
-			</div>
-		
-
-
-</div>
-		
-				<div >
-				<div class="title">
-					<h2>7. Power Supply Unit
-</h2>
-				</div>
-				<p>
-Now that you have most of your components installed, you need to give them power. If you have a modular power supply, then you can use the cables that you need, if not then you will need to do some cable management (stuffing) later on.
-
-If your case has a separate enclosure for your PSU, you’ll have to install it from the back of the case. If not, you can do it from the front.
-
-Just slide the PSU into place and make sure the side with the D/C Power faces the right direction (towards the back/outside of the case, the same direction as the I/O ports of your motherboard). Also, the fan-side of the PSU should usually face where there is a grill in the Case, so it doesn’t suffocate when pulling Air in.
-M</p>
-			</div>
-
-
-</div>
-		
-				<div >
-				<div class="title">
-					<h2>8. Front Panel Buttons and I/O
-</h2>
-				</div>
-				<p>To get your front I/O (the USB and Audio plugs on the front of your Case) to work, you need to plug in the cables into the motherboard. The front headers are located at the bottom of the motherboard and are labeled. The cables are marked as well. All you need to do is match the names and plug them into the correct headers. Be careful not to bend the headers when doing so.
-
-The cables for front panel lights have a positive and negative. Match them to ensure that your system indicator lights work properly.</p>
-			</div>
-
-		
-				<div >
-				<div class="title">
-					<h2>9. Graphics Card
-
-</h2>
-				</div>
-				<p>Now that we have everything in place, we can install the graphics card. Most graphics cards have a dual-slot design, and you need to remove two slots openings at the back of the case for every graphics card you want to install.
-
-Free up space directly behind the PCI-E slot and one below it by unscrewing the screws holding the slot cover in place.
-
-Push down the latch of the PCI-E slot you want to use for your graphics card. This is similar to the latch on the RAM slots. Ideally, it would be best to use the very first PCI-E slot on your motherboard (first from the motherboard’s I/O ports).
-
-Please note – some motherboards won’t have a push-latch (at the back of the slot). It’ll slot into place without pushing anything. However, you’ll need to apply downward pressure to a small lever at the back of the slot to get your graphics card out.
-
-Align your graphics card with the PCI-E slot and gently push it in – you should hear a click. This tells you that the card is secure in its slot. Once done, secure the graphics card to the case using the screws you removed in the previous step.
-
-Give your graphics card power, if needed using the PCI-E power cable froms your power supply. If you have a powerful GPU, you’ll need two of these connectors for extra power. These cables will be labeled, so look for ones that say ‘PCI-E.’
-
-However, many entry-level cards won’t need this power connector and can draw sufficient power from the slot itself.</p>
-			</div>
-
-
-	</div> 
-
-
-
-
-
-    <br>
-        <div id="footer-wrapper">
-            <div id="copyright">
-                <p>
-            &copy; UNTITLED. ALL RIGHTS RESERVED. | DESIGN BY <a href="mailto:3720883@stu.rcyci.edu.sa">RAGHEED ALJEHANI</a> & <a href="mailto:3910628@stu.rcyci.edu.sa">ABDULRAHMAN ALTHOMALI</a>.
-                </p>
-            </div>
-        </div>
 </body>
 </html>
