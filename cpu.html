@@ -1,120 +1,230 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>eClouds</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
+  <script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+<style>
+* {
+  box-sizing: border-box;
+}
 
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+body {
+  font-family: Arial;
+  padding: 14px;
+  background: #f1f1f1;
+}
 
-<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+/* Header/Blog Title */
+.header {
+  padding: 50px;
+  text-align: center;
 
+ /* background: white;*/
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.header p {
+   color: #ffffff;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+    font-size: 1.4em;
+
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 24px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 15px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 10px;
+  text-align: center;
+  background: #f1f1f1;
+  margin-top: 10px;
+  
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.80em;
+  color: rgba(255,255,255,0.8);
+
+}
+.logo a{
+    text-decoration: none;
+  color: #ffffff;
+
+}
+
+.logo1 {
+    padding: 5px;
+
+  color: #ffffff;
+    font-size: 1.5em;
+
+
+}
+.logo{
+display:inline-block;
+  font-size: 4.5em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+
+
+
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
 </head>
-<body >
-	<div id="wrapper">
-<div id="header-wrapper">
-	<div id="header" class="container">
-		<div id="logo">
-			<h1><a href="https://eclouds.ml">eClouds</a></h1>
-			</div>
-			<div id="menu" >
-			<ul>
-				<li><a href="cpu.html" accesskey="2" title="">CPU</a></li>
-				<li><a href="MB.html" accesskey="3" title="">Motherboard</a></li>
-				<li><a href="ram.html" accesskey="4" title="">RAM</a></li>
-				<li><a href="GPU.html" accesskey="5" title="">Graphics Card</a></li>
-				<li><a href="#" accesskey="6" title="">Storage</a></li>
-				<li><a href="#" accesskey="7" title="">Power Supply</a></li>
-				<li><a href="case.html" accesskey="8" title="">Case</a></li>
+<body>
 
-
-				</ul>
-		</div>
-	</div>
+<div class="header" style="background-image: url('banner.jpg');">
+  <h1 class = "logo"><a href="index.html"> EClouds</a> </h1>
+  <p  class = "logo1">Best place to visit before choosing PC parts for your new gaming PC</p>
 </div>
 
-<div id="extra" class="container">
-
-
-		<h2> CPU and Motherboards: Picking the Right Combination </h2>
-
-		<span> When it comes to desktop CPUs, there are two brands that you can choose from – AMD and Intel. This choice dictates what motherboard you can and cannot pick.</span>
-
+<div class="topnav">
+    <a href="cpu.html">CPU</a>
+    <a href="GPU.html">Graphics Card</a>
+    <a href="MB.html">Motherboard</a>
+    <a href="RAM.html">RAM</a>
+    <a href="Storage.html">Storage</a>
+    <a href="PSU.html">Power Supply</a>
+    <a href="case.html">Case</a>
+  <a href="https://pcpartpicker.com/" style="float:right">Outside soruce</a>
 </div>
 
-<div id="extra" class="container">
-		<h2> Sockets and Chipsets</h2>
-		<span>You’ll need an Intel-compatible motherboard for an Intel CPU and an AMD-compatible motherboard for an AMD CPU.</span>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Central Processing Unit(CPU)</h2>
+      <h5>First step before choosing pc hardware, April 12, 2021</h5>
+       
+       <img src="CPU.jpg" style="height:200px;">
+ <p>A central processing unit (CPU) fabricated on one or more chips, containing the basic arithmetic, logic, and control elements of a computer that are required for processing data.</p>
+      <p>to measure processor(CPU) performance:</p>
+    </div>
 
+ <div class="card">
+       <h2>What Is Clock Speed?</h2>
+      
+ <p>Your CPU processes many instructions (low-level calculations like arithmetic) from different programs every second. The clock speed measures the number of cycles your CPU executes per second, measured in GHz (gigahertz).
 
-<img src="images/processor.jpg" alt="">
-
+A “cycle” is technically a pulse synchronized by an internal oscillator, but for our purposes, they’re a basic unit that helps understand a CPU’s speed. During each cycle, billions of transistors within the processor open and close.
+</p>
 </div>
 
-Both brands use different socket types, and that is why you can’t swap CPUs from different brands. Sockets can even vary across processor generations from the same company.
+  </div>
+  <div class="rightcolumn">
+        <div class="card">
+  <h2>Our objective:</h2>
+          <p>We in EClouds hope to make it eaier to udertsand what you need to know before buying or building gaming PC.</p>
+    </div>
 
-For mainstream Intel CPUs, you’ll need a motherboard with an LGA 1151 socket. These motherboards will support both 8th and 9th generation CPUs from Intel.
+        <div class="card">
+      <h2>Our strategy:</h2>
+          <p>We choose to divide every Pc to one of three category:  </p>
+          <ul> <li>Low Budget PC</li>
+               <li>Budget PC</li>
+               <li>High-end PC</li>
 
-For mainstream AMD CPUs, you need a motherboard with the AM4 socket. These motherboards will support all AMD Ryzen CPUs and APUs.
+        </ul>
+    </div>
 
-However, the socket alone doesn’t determine compatibility, which is why I recommend shopping by chipset instead. A chipset controls the flow of instructions between any processor and external devices.
-
-Here’s a table with recommended chipsets for the most popular processors out there. If you don’t find your processor in this list, do go ahead and leave a comment below. I’ll do my best to help out!
-
-
-
-
-<div id="tablepress-39_wrapper" class="dataTables_wrapper no-footer"><table id="tablepress-39" class="tablepress tablepress-id-39 tablepress-responsive dataTable no-footer" role="grid">
-<tr class="row-1 odd" role="row"><th class="column-1 sorting_disabled" rowspan="1" colspan="1" style="width: 234px;"><strong>CPU</strong></th><th class="column-2 sorting_disabled" rowspan="1" colspan="1" style="width: 94px;"><strong>Recommended Chipset</strong></th><th class="column-3 sorting_disabled" rowspan="1" colspan="1" style="width: 354px;"><strong>Reason</strong></th></tr><thead>
-
-</thead>
-<tbody class="row-hover">
-
-
-
-
-
-
-<tr class="row-2 even" role="row">
-	<td class="column-1"><strong>8<sup>th</sup> and 9<sup>th</sup> Generation Intel Core i9, i7, and i5 Processors (K series)</strong></td><td class="column-2">Z390/Z370</td><td class="column-3">‘K’ CPUs from Intel have unlocked cores and can be overclocked. Only the Z390 and Z370 chipsets support this capability.</td>
-</tr><tr class="row-3 odd" role="row">
-	<td class="column-1"><strong>8<sup>th</sup> And 9<sup>th</sup> Generation Intel Core i9, i7, i5, and i3 Processors (non-K Series)</strong></td><td class="column-2">H370/B360/H310</td><td class="column-3">Since non - ‘K’ CPUs from Intel aren’t overclockable, you can safely go with cheaper chipset options that don’t support this capability.</td>
-</tr><tr class="row-4 even" role="row">
-	<td class="column-1"><strong>AMD Ryzen Processors (1<sup>st</sup>, 2<sup>nd</sup>, and 3<sup>rd</sup> Generation) and AMD Ryzen-Based APUs (2400G, 3400G, etc.)</strong></td><td class="column-2">X570/B450/A320</td><td class="column-3">All motherboards with these chipsets come with an AM4 socket. Pick according to your budget and requirements. Follow this <a href="https://www.cgdirector.com/best-motherboard-for-amd-ryzen-3rd-gen/">Ryzen motherboard guide</a> for additional information.</td>
-</tr><tr class="row-5 odd" role="row">
-	<td class="column-1"><strong>AMD Ryzen Threadripper Processors (1<sup>st </sup>and 2<sup>nd </sup>Gen)</strong></td><td class="column-2">X399</td><td class="column-3">Only available Chipset for 1st and 2nd Gen Threadripper CPUs</td>
-</tr><tr class="row-6 even" role="row">
-	<td class="column-1"><strong>AMD Ryzen Threadripper Processors (3<sup>rd </sup>Gen)</strong></td><td class="column-2">TRX40</td><td class="column-3">Only available Chipset for 3rd Gen Threadripper CPUs</td>
-</tr><tr class="row-7 odd" role="row">
-	<td class="column-1"><strong>Intel HEDT X-Series CPUs 9th and 10th Gen</strong></td><td class="column-2">X299</td><td class="column-3">Only available Chipset for 9th and 10th gen Intel X-Series CPUs</td>
-</tr></tbody>
-</table></div>
-
-
-
-
-<div id="extra" class="container">
-		<h2> CPU history</h2>
-		<span>The CPU was first developed at Intel with the help of Ted Hoff and others in the early 1970s. The first processor released by Intel was the 4004 processor, shown in the picture.</span>
-
+    <div class="card">
+      <h2>About Us</h2>
+          <p>This our final project for CS379 course: </p>
+        <ul> <li>Abdulrahman Althomali:   3910628</li>
+    <li>Ragheed Al-jehani:   3710883</li>
+        </ul>
+   
+    </div>
+   
+    <div class="card">
+      <h3>Follow us</h3>
+      <p>Twitter:<a href="https://twitter.com/YUC_HOTLINE">@YUC_HOTLINE</a> </p>
+    </div>
+  </div>
 </div>
 
+<div class="footer" style="background-image: url('fotter.jpg');">
+  <div id="copyright">
+            <p>
+                &copy; UNTITLED. ALL RIGHTS RESERVED. | DESIGN BY ABDULRAHMAN ALTHOMALI & RAGHEED
+                    ALJEHANI< 
+            </p>
+        </div></div>
 
 
-<div id="extra" class="container">
-		<h2> Could a computer work without a CPU? </h2>
-		<span>No. All computers require some type of CPU.
-</span>
-
-</div>
-
-        <div id="footer-wrapper">
-            <div id="copyright">
-                <p>
-            &copy; UNTITLED. ALL RIGHTS RESERVED. | DESIGN BY <a href="mailto:3720883@stu.rcyci.edu.sa">RAGHEED ALJEHANI</a> & <a href="mailto:3910628@stu.rcyci.edu.sa">ABDULRAHMAN ALTHOMALI</a>.
-                </p>
-            </div>
-        </div>
 </body>
 </html>
