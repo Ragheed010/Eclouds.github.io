@@ -91,6 +91,16 @@ body {
   display: table;
   clear: both;
 }
+  
+         #copyright a
+{
+	text-decoration: none;
+	color: #f1f1f1ab;
+    margin-top: 10px;
+    font-size: 1.3em;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+}
 
 /* Footer */
 .footer {
@@ -100,7 +110,7 @@ body {
   margin-top: 10px;
   
   letter-spacing: 0.22em;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 0.80em;
   color: rgba(255,255,255,0.8);
 
@@ -125,9 +135,14 @@ display:inline-block;
   text-transform: uppercase;
   font-weight: 700;
   color: #ffffff;
-
-
-
+}
+             #extra a
+{
+	text-decoration: none;
+    font-size: 0.80em; 
+    letter-spacing: 0.1em;    
+	color: #2776B1;
+    
 }
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
@@ -201,15 +216,14 @@ A “cycle” is technically a pulse synchronized by an internal oscillator, but
         </ul>
     </div>
 
-    <div class="card">
-      <h2>About Us</h2>
-          <p>This our final project for CS379 course: </p>
-        <ul> <li>Abdulrahman Althomali:   3910628</li>
-    <li>Ragheed Al-jehani:   3710883</li>
-        </ul>
-   
-    </div>
-   
+                <div id="extra">
+                <ul>
+                    <li><a href="mailto:3910628@stu.rcyci.edu.sa">ABDULRAHMAN ALTHOMALI</a></li>
+                    <li><a href="mailto:3720883@stu.rcyci.edu.sa">RAGHEED ALJEHANI</a></li>
+                </ul>
+                </div>
+            </div>
+  
     <div class="card">
       <h3>Follow us</h3>
       <p>Twitter:<a href="https://twitter.com/YUC_HOTLINE">@YUC_HOTLINE</a> </p>
@@ -217,13 +231,14 @@ A “cycle” is technically a pulse synchronized by an internal oscillator, but
   </div>
 </div>
 
-<div class="footer" style="background-image: url('fotter.jpg');">
-  <div id="copyright">
+    <div class="footer" style="background-image: url('images/fotter.jpeg');">
+        <div id="copyright">
             <p>
-                &copy; UNTITLED. ALL RIGHTS RESERVED. | DESIGN BY ABDULRAHMAN ALTHOMALI & RAGHEED
-                    ALJEHANI< 
+                &copy; UNTITLED. ALL RIGHTS RESERVED. | DESIGN BY <a href="mailto:3720883@stu.rcyci.edu.sa">RAGHEED
+                    ALJEHANI</a> & <a href="mailto:3910628@stu.rcyci.edu.sa">ABDULRAHMAN ALTHOMALI</a>.
             </p>
-        </div></div>
+        </div>
+    </div>
 
 
 </body>
