@@ -483,7 +483,7 @@ ul.contact li a.icon-rss:before
 {
 	display: inline-block;
 	font-size: 2.5em;
-	text-transform: uppercase;
+	text-transform: initial;
 	font-weight: 700;
 	color: #2C383B;
 	padding-right: 0.50em;
@@ -497,7 +497,7 @@ ul.contact li a.icon-rss:before
 	display: inline-block;
 	padding-left: 1.50em;
 	letter-spacing: 0.10em;
-	text-transform: uppercase;
+	text-transform: initial;
 	font-size: 0.90em;
 }
 
