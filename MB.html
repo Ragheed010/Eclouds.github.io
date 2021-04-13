@@ -1,74 +1,264 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>eClouds/motherboard</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
+  <script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+<style>
+* {
+  box-sizing: border-box;
+}
 
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+body {
+  font-family: Arial;
+  padding: 14px;
+  background: #f1f1f1;
+}
 
-<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+/* Header/Blog Title */
+.header {
+  padding: 50px;
+  text-align: center;
 
+ /* background: white;*/
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.header p {
+   color: #ffffff;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+    font-size: 1.4em;
+
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 24px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 15px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 10px;
+  text-align: center;
+  background: #f1f1f1;
+  margin-top: 10px;
+  
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.80em;
+  color: rgba(255,255,255,0.8);
+
+}
+.logo a{
+    text-decoration: none;
+  color: #ffffff;
+
+}
+
+.logo1 {
+    padding: 5px;
+
+  color: #ffffff;
+    font-size: 1.5em;
+
+
+}
+.logo{
+display:inline-block;
+  font-size: 4.5em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+
+
+
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
 </head>
-<body >
-	<div id="wrapper">
-<div id="header-wrapper">
-	<div id="header" class="container">
-		<div id="logo">
-			<h1><a href="https://eclouds.ml">eClouds</a></h1>
-			</div>
-			<div id="menu" >
-			<ul>
-<li><a href="cpu.html" accesskey="2" title="">CPU</a></li>
-				<li><a href="MB.html" accesskey="3" title="">Motherboard</a></li>
-				<li><a href="RAM.html" accesskey="4" title="">RAM</a></li>
-				<li><a href="GPU.html" accesskey="5" title="">Graphics Card</a></li>
-				<li><a href="#" accesskey="6" title="">Storage</a></li>
-				<li><a href="#" accesskey="7" title="">Power Supply</a></li>
-				<li><a href="case.html" accesskey="8" title="">Case</a></li>
-				</ul>
-		</div>
-	</div>
+<body>
+
+<div class="header" style="background-image: url('banner.jpg');">
+  <h1 class = "logo"><a href="index.html"> EClouds</a> </h1>
+  <p  class = "logo1">Best place to visit before choosing PC parts for your new gaming PC</p>
 </div>
 
-<div id="extra" class="container">
+<div class="topnav">
+    <a href="cpu.html">CPU</a>
+    <a href="GPU.html">Graphics Card</a>
+    <a href="MB.html">Motherboard</a>
+    <a href="RAM.html">RAM</a>
+    <a href="Storage.html">Storage</a>
+    <a href="PSU.html">Power Supply</a>
+    <a href="case.html">Case</a>
+  <a href="https://pcpartpicker.com/" style="float:right">Outside soruce</a>
+</div>
 
-	
-		<h2> CPU and Motherboards: Picking the Right Combination </h2>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Mother board </h2>
+      
+       
+       <img src="MB.jpg" style="height:200px;">
+ <p>WHEN IT COMES TO DESKTOP CPUS, THERE ARE TWO BRANDS THAT YOU CAN CHOOSE FROM – AMD AND INTEL. THIS CHOICE DICTATES WHAT MOTHERBOARD YOU CAN AND CANNOT PICK.</p>
+      <p>You can see our recomndation next:</p>
+    </div>
 
-		<span> When it comes to desktop CPUs, there are two brands that you can choose from – AMD and Intel. This choice dictates what motherboard you can and cannot pick.</span>
+ <div class="card">
+       <h2>There difrrent tipe of motherboard:</h2>
+      
+    
+<table border="1" id = "ratable" style="width:50%;">
+  <tr>
+    <th>Form Factor </th>
+    <th>  Manufacturer/Date</th>
+        <th>Dimensions</th>
+    <th>Applications</th>
+  </tr>
+
+   <tr>
+    <th>Standard-ATX    </th>
+    <th> Intel 1995 </th>
+        <th>12 × 13 in  </th>
+    <th>Workstation/Desktop
+</th>
+  </tr>
+   <tr>
+    <th>Micro-ATX  </th>
+    <th>Intel 1997  </th>
+        <th>9.6 × 9.6 in</th>
+    <th>  Small Form Factor</th>
+  </tr>
+   <tr>
+    <th> Mini-ITX  </th>
+    <th> VIA 2001 </th>
+        <th>6.7 × 6.7 in  </th>
+    <th>  Small Form Factor</th>
+  </tr>
+   <tr>
+    <th>Nano-ITX   </th>
+    <th> VIA 2003 </th>
+        <th>4.7 × 4.7 in  </th>
+    <th>Embedded Systems
+</th>
+  </tr>
+  
+</table>
 
 </div>
 
+  </div>
+  <div class="rightcolumn">
+        <div class="card">
+  <h2>Our objective:</h2>
+          <p>We in EClouds hope to make it eaier to udertsand what you need to know before buying or building gaming PC.</p>
+    </div>
 
+        <div class="card">
+      <h2>Our strategy:</h2>
+          <p>We choose to divide every Pc to one of three category:  </p>
+          <ul> <li>Low Budget PC</li>
+               <li>Budget PC</li>
+               <li>High-end PC</li>
 
-<div id="extra" class="container">
-		<h2> Motherboard Form Factors</h2>
-		<span>Before picking motherboards, it’s important to understand the various sizes out there.<b>Not every motherboard will fit into every case.</b></span>
+        </ul>
+    </div>
 
-		<span>Some people prefer compact systems, while others like large ones. You can pick from a variety of motherboard form factors to suit your PC cabinet and personal preferences.</span>
-
-
-<span>Intel developed the ATX specification in 1995 to standardize board design and improve on older implementations.</span>
-
-ATX (Advanced Technology eXtended) – One of the most popular form factors. It offers a fairly standard layout and usually features 4 DIMM (memory/RAM) slots along with multiple full-length (x8/x16) PCI-E slots.
-E-ATX (Extended ATX) – One of the largest form factors available for mainstream use. It typically offers the most features and extensibility – giving you flexibility with regards to peripherals. These motherboards should come with 3 or more full-length PCI-E slots.
-M-ATX (Micro ATX) – A compact implementation of the ATX standard. It usually features 2 or 4-DIMM configurations for memory and very rarely features more than 2 full-length PCI-E slots. It’s an excellent choice for those wanting a reasonably compact build.
-M-ITX (Mini ITX) – One of the most compact form factors widely available for mainstream computers. Although they have limited extensibility due to their diminutive size, they have no peer when it comes to building extremely compact PCs.
-
-<img src="MB.jpg" alt="">
-
-	
+    <div class="card">
+      <h2>About Us</h2>
+          <p>This our final project for CS379 course: </p>
+        <ul> <li>Abdulrahman Althomali:   3910628</li>
+    <li>Ragheed Al-jehani:   3710883</li>
+        </ul>
+   
+    </div>
+   
+    <div class="card">
+      <h3>Follow us</h3>
+      <p>Twitter:<a href="https://twitter.com/YUC_HOTLINE">@YUC_HOTLINE</a> </p>
+    </div>
+  </div>
 </div>
 
+<div class="footer" style="background-image: url('fotter.jpg');">
+  <div id="copyright">
+            <p>
+                &copy; UNTITLED. ALL RIGHTS RESERVED. | DESIGN BY ABDULRAHMAN ALTHOMALI & RAGHEED
+                    ALJEHANI< 
+            </p>
+        </div></div>
 
-        <div id="footer-wrapper">
-            <div id="copyright">
-                <p>
-            &copy; UNTITLED. ALL RIGHTS RESERVED. | DESIGN BY <a href="mailto:3720883@stu.rcyci.edu.sa">RAGHEED ALJEHANI</a> & <a href="mailto:3910628@stu.rcyci.edu.sa">ABDULRAHMAN ALTHOMALI</a>.
-                </p>
-            </div>
-        </div>
+
 </body>
 </html>
